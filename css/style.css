@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  background-color: #273040;
+}
+
+span {
+  color: #59C9A5;
+}
+
+
+/*NAVIGATION*/
+
+.nav-top {
+  border-bottom: 1px solid #334056;
+}
+
+.nav-items a {
+  text-decoration: underline;
+  color: #EF6F6C;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.nav-items .active {
+  text-decoration: none;
+}
+
+.summary h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  word-spacing: 1.2rem;
+  font-weight: lighter;
+}
+
+.cta-contact a {
+  text-decoration: underline;
+  color: #EF6F6C;
+  font-size: 1rem;
+}
+
+.skill-content {
+  border: 1px solid #334056;
+}
+
+.skill-content i {
+  font-size: 5rem;
+  color: #59C9A5;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.skill-content p {
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+
+.projects {
+  border-top: 1px solid #334056;
+}
+
+.card {
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.card-image span {
+  font-size: 1.4rem;
+}
+
+.card-title {
+  position: relative;
+  top: -40px;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-action {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  color: #EF6F6C;
+  font-size: 1rem;
+}
+
+.card-action a {
+  text-decoration: underline;
+  color: #EF6F6C;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer div {
+  margin: auto;
+}
+
+footer h5 {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+footer a {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+
+/*ABOUT PAGE*/
+
+.client-list img {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 4rem;
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+  .project-row-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  html {
+    font-size: 12px;
+  }
+  .project-row-2 {
+    display: none;
+  }
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .card-content {
+    font-size: 1.5rem;
+  }
+  .card-action {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
+  .project-row-2 {
+    display: none;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-content {
+    font-size: 1rem;
+  }
+  .card-action {
+    font-size: 1rem;
+  }
+}
