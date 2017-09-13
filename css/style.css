@@ -23,15 +23,25 @@ span {
   border-bottom: 1px solid #334056;
 }
 
+h1 {
+  font-size: 3.5rem;
+  color: #59C9A5;
+  font-family: monospace;
+  padding-top: 0;
+}
+
+.title h5 {
+  color: #fff;
+  font-family: monospace;
+  margin-bottom: 0;
+}
+
 .nav-items a {
   text-decoration: underline;
   color: #EF6F6C;
   margin-left: 1.5rem;
   font-size: 1rem;
-}
-
-.nav-items .active {
-  text-decoration: none;
+  margin-top: 8px;
 }
 
 .summary h2 {
@@ -63,6 +73,16 @@ span {
   margin-bottom: 2rem;
 }
 
+.tech-stack {
+  text-align: center;
+  border-top: 1px solid #334056;
+}
+
+.tech-stack i {
+  font-size: 3rem;
+  margin: auto;
+}
+
 .projects {
   border-top: 1px solid #334056;
 }
@@ -92,7 +112,6 @@ span {
 .card-action {
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1rem;
   padding-bottom: 1rem;
   text-decoration: underline;
   color: #EF6F6C;
@@ -103,6 +122,11 @@ span {
   text-decoration: underline;
   color: #EF6F6C;
   font-size: 1rem;
+}
+
+.card-action a i {
+  font-size: 2rem;
+  color: #000;
 }
 
 footer {
