@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #273040;
+  background-color: #AFB0AF;
+}
+
+.nav-top {
+  border-bottom: 1px solid #999A99;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #273040;
+  font-family: monospace;
+  padding-top: 0;
+}
+
+.title h5 {
+  color: #fff;
+  font-family: monospace;
+  margin-bottom: 0;
+}
+
+.nav-items a {
+  text-decoration: underline;
+  color: #fff;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.summary h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  word-spacing: 1.2rem;
+  font-weight: lighter;
+}

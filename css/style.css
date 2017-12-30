@@ -16,7 +16,6 @@ span {
   color: #59C9A5;
 }
 
-
 /*NAVIGATION*/
 
 .nav-top {
@@ -88,13 +87,19 @@ h1 {
 }
 
 .card {
-  border: 1px solid #fff;
+  border: 1px solid #334056;
   border-radius: 0;
+  background-color: #334056;
+}
+
+.card:hover {
+  border: 2px solid #334056;
 }
 
 .card-image img {
   width: 100%;
-  height: auto;
+  max-height: 40vh;
+  overflow: hidden;
 }
 
 .card-image span {
@@ -103,10 +108,10 @@ h1 {
 
 .card-title {
   position: relative;
-  top: -40px;
   color: #fff;
   padding-left: 1rem;
   padding-right: 1rem;
+  transition: .5s ease;
 }
 
 .card-action {
@@ -126,7 +131,7 @@ h1 {
 
 .card-action a i {
   font-size: 2rem;
-  color: #000;
+  color: #fff;
 }
 
 footer {
@@ -153,12 +158,15 @@ footer h5 {
   margin-bottom: 1.5rem;
 }
 
+.social-media i:hover {
+  color: #EF6F6C;
+}
+
 footer a {
   color: #fff;
   font-size: 2.5rem;
   margin-right: 1rem;
 }
-
 
 /*ABOUT PAGE*/
 
